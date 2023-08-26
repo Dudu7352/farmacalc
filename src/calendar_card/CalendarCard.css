@@ -1,0 +1,54 @@
+.CalendarCard {
+  border: 1px #aaa solid;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: calc(250px - 0.5rem);
+  min-width: calc(250px - 0.5rem);
+  flex-direction: column;
+  aspect-ratio: 1 / 1;
+}
+
+.CalendarCard > .contents {
+  height: calc(100% - 4rem);
+}
+
+.CalendarCard > header {
+  background-color: #EB5A47;
+  height: 3.1rem;
+  padding: 0.2rem;
+}
+
+.CalendarCard > header > p {
+  text-align: left;
+  font-weight: 500;
+  color: #fff;
+  margin: 0.5rem;
+}
+
+.CalendarCard > h1 {
+  font-size: 4rem;
+  flex: 1;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1.fat {
+  font-weight: 700;
+}
+
+.CalendarCard > .sep {
+  width: calc(100% - 1rem);
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  height: 1px;
+  background-color: #aaa;
+}
+
+.CalendarCard > p {
+  margin: 0;
+  text-align: left;
+  padding-left: 1rem;
+}
+

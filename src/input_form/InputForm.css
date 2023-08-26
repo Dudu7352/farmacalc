@@ -1,0 +1,17 @@
+.InputForm {
+  width: fit-content;
+  margin: auto;
+}
+
+.InputForm > p {
+  text-align: left;
+  margin: 1rem 0 0 0;
+}
+
+.InputForm input {
+  display: block;
+  min-width: 234px;
+  font-size: large;
+  font-family: monospace;
+}
+

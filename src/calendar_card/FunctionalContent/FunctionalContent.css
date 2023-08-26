@@ -1,0 +1,23 @@
+.FunctionalContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  transition: opacity 100ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FunctionalContent > p {
+  font-family: monospace;
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.FunctionalContent > p.fat {
+  font-weight: 700;
+}
