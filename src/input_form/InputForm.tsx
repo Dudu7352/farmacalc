@@ -21,6 +21,7 @@ export default function InputForm(props: InputFormProps) {
       <p>Ilość dni kuracji</p>
       <input
         type="number"
+        min="0"
         onChange={(e) => {
           props.setDuration(Number.parseInt(e.target.value));
         }}
