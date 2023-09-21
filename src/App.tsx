@@ -12,7 +12,7 @@ function App() {
     setOutputDate(
       new Date(
         inputDate.getTime() 
-        + Math.ceil(duration * 3/4)
+        + ( Math.floor(duration * 3/4) + 1 )
         * 3600 * 24 * 1000
         )
     );
